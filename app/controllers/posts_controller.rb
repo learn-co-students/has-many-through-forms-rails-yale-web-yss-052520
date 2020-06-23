@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
   end
+  #adding a comment so I can submit
 
   def index
     @posts = Post.all
